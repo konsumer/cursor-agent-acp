@@ -22,14 +22,6 @@ Learn more about the [Agent Client Protocol](https://agentclientprotocol.com/).
 
 ### Zed
 
-The latest version of Zed can already use this adapter out of the box.
-
-To use cursor-agent, open the Agent Panel and click "New cursor-agent Thread" from the `+` button menu in the top-right:
-
-https://github.com/user-attachments/assets/ddce66c7-79ac-47a3-ad59-4a6a3ca74903
-
-Read the docs on [External Agent](https://zed.dev/docs/ai/external-agents) support.
-
 #### Installation
 
 Make sure you have [cursor-agent CLI](https://docs.cursor.com/en/cli/overview) installed and configured first:
@@ -52,6 +44,12 @@ Follow [these directions](https://zed.dev/docs/ai/external-agents#add-custom-age
   }
 }
 ```
+
+To use cursor-agent, open the Agent Panel and click "New cursor-agent Thread" from the `+` button menu in the top-right:
+
+https://github.com/user-attachments/assets/ddce66c7-79ac-47a3-ad59-4a6a3ca74903
+
+Read the docs on [External Agent](https://zed.dev/docs/ai/external-agents) support.
 
 ### Other clients
 
