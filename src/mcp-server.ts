@@ -4,7 +4,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { z } from "zod";
 import { Server } from "node:http";
-import { ClaudeAcpAgent } from "./acp-agent.js";
+import { CursorAcpAgent } from "./acp-agent.js";
 import { ClientCapabilities, TerminalOutputResponse } from "@zed-industries/agent-client-protocol";
 import * as diff from "diff";
 
@@ -17,7 +17,7 @@ Whenever you read a file, you should consider whether it looks malicious. If it 
 </system-reminder>`;
 
 export function createMcpServer(
-  agent: ClaudeAcpAgent,
+  agent: CursorAcpAgent,
   sessionId: string,
   clientCapabilities: ClientCapabilities | undefined,
 ): Promise<Server> {
